@@ -16,10 +16,7 @@ export default function ProductShowcase() {
         <h2 className="text-center text-2xl font-extrabold text-slate-900 sm:text-3xl">
           প্রোডাক্ট শোকেস
         </h2>
-        <p className="mx-auto mt-3 max-w-xl text-center text-sm text-slate-600 sm:text-base">
-          আসল প্রোডাক্ট ছবি যুক্ত হলে এই জায়গাগুলোতে সহজেই প্রতিস্থাপন করা যাবে।
-        </p>
-
+        
         <div className="mt-8 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-5">
           {shots.map((shot) => (
             <ImagePlaceholder

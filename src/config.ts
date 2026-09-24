@@ -17,7 +17,7 @@ export const CONFIG = {
   // ---------- Pricing ----------
   CURRENCY_SYMBOL: "৳",
   REGULAR_PRICE: 2000,
-  OFFER_PRICE: 1550,
+  OFFER_PRICE: 1700,
 
   // ---------- Contact / Ordering ----------
   // 🔴 TODO: WhatsApp নম্বর বসান (দেশের কোড সহ, যেমন 8801XXXXXXXXX)
@@ -34,28 +34,25 @@ export const CONFIG = {
 
   // ---------- Delivery info (placeholders — do not invent) ----------
   DELIVERY: {
-    dhakaCharge: "[ADD CHARGE]",
-    outsideDhakaCharge: "[ADD CHARGE]",
-    deliveryTime: "[ADD INFORMATION]",
+    dhakaCharge: "FREE",
+    outsideDhakaCharge: "FREE",
+    deliveryTime: "Inside Dhaka: 1-3 days, Outside Dhaka: 2-5 days",
     codAvailable: true,
   },
 
   // ---------- Warranty / Replacement ----------
   WARRANTY_TEXT: "১ বছরের Service Warranty",
   REPLACEMENT_POLICY:
-    "পণ্য হাতে পাওয়ার পর ২৪ ঘণ্টার মধ্যে যদি কোনো সমস্যা থাকে, তাহলে ছবি বা ভিডিও তুলে আমাদের সাথে যোগাযোগ করতে হবে। যাচাইয়ের পর পণ্য পরিবর্তন করে দেওয়া হবে।",
+    "পণ্য হাতে পাওয়ার পর ২৪ ঘণ্টার মধ্যে যদি কোনো সমস্যা থাকে, তাহলে ছবি বা ভিডিও তুলে আমাদের সাথে যোগাযোগ করতে হবে। যাচাইয়ের পর পণ্য পরিবর্তন করে দেওয়া হবে। *শর্ত প্রযোজ্য",
 
   // ---------- Specifications (placeholders — do not invent) ----------
   SPECIFICATIONS: [
     { label: "Model", value: "Queen-955" },
-    { label: "Capacity", value: "[ADD]" },
-    { label: "Power (Wattage)", value: "[ADD]" },
-    { label: "Voltage", value: "[ADD]" },
-    { label: "Inner Pot Material", value: "[ADD]" },
-    { label: "Color", value: "[ADD]" },
-    { label: "Dimensions", value: "[ADD]" },
-    { label: "Weight", value: "[ADD]" },
-    { label: "Box Accessories", value: "[ADD]" },
+    { label: "Capacity", value: "6.5L" },
+    { label: "Power (Wattage)", value: "1100 Watt" },
+    { label: "Voltage", value: "220V-240V" },
+    { label: "Inner Pot Material", value: "Non Stick" },  
+    { label: "Box Accessories", value: "Cable, Free Measurement Cup & Spoon" },
   ],
 
   // ---------- Images ----------
@@ -71,7 +68,7 @@ export const CONFIG = {
 
   // ---------- SEO ----------
   SEO: {
-    title: "Prestige Garden Queen-955 All-in-One Multipurpose Cooker | ৳1,550",
+    title: "Prestige Garden Queen-955 All-in-One Multipurpose Cooker | ৳1,700",
     description:
       "Prestige Garden Queen-955 All-in-One Multipurpose Cooker। ভাত, খিচুড়ি, পোলাও, নুডলস, সবজি ও স্টিম/ভাপা খাবার তৈরিতে ব্যবহারযোগ্য। Cash on Delivery ও ১ বছরের Service Warranty।",
     ogImage: "/images/product-main.webp", // [OG IMAGE PLACEHOLDER]
