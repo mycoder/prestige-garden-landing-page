@@ -25,13 +25,13 @@ export default function App() {
       <main>
         <Hero />
         <TrustStrip />
-        <ProblemSolution />
-        <Solution />
-        <UsesGrid />
-        <WhyChoose />
-        <ProductShowcase />
-        <DailyLife />
         <GiftSection />
+        <ProductShowcase />
+        <ProblemSolution />
+        <WhyChoose />  
+        <Solution />
+        <UsesGrid />          
+        <DailyLife />        
         <PriceOffer />
         <OrderSection />
         <DeliveryWarranty />
