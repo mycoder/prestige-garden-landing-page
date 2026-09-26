@@ -31,15 +31,7 @@ export default function FinalCTA() {
             className="min-h-[50px] flex-1 rounded-xl bg-white px-6 py-3 text-base font-bold text-emerald-800 shadow-lg transition hover:bg-emerald-50 active:scale-[0.98]"
           >
             🛒 এখনই অর্ডার করুন
-          </button>
-          <a
-            href={getWhatsAppUrl()}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex min-h-[50px] flex-1 items-center justify-center rounded-xl border-2 border-white px-6 py-3 text-base font-bold text-white transition hover:bg-white/10 active:scale-[0.98]"
-          >
-            📲 WhatsApp-এ অর্ডার করুন
-          </a>
+          </button>          
         </div>
       </div>
     </section>

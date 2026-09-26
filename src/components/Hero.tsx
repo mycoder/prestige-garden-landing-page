@@ -105,15 +105,7 @@ export default function Hero() {
               className="min-h-[48px] flex-1 rounded-xl bg-emerald-700 px-6 py-3 text-center text-base font-bold text-white shadow-lg shadow-emerald-700/20 transition hover:bg-emerald-800 active:scale-[0.98] sm:flex-none"
             >
               🛒 এখনই অর্ডার করুন
-            </button>
-            <a
-              href={getWhatsAppUrl()}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex min-h-[48px] flex-1 items-center justify-center rounded-xl border-2 border-emerald-700 px-6 py-3 text-center text-base font-bold text-emerald-700 transition hover:bg-emerald-50 active:scale-[0.98] sm:flex-none"
-            >
-              📲 WhatsApp-এ অর্ডার করুন
-            </a>
+            </button>            
           </div>
         </div>
       </div>
