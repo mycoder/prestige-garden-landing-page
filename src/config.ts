@@ -60,7 +60,7 @@ export const CONFIG = {
   // ---------- SEO ----------
   SEO: {
     title:
-      "Prestige Garden Queen-955 All-in-One Multipurpose Cooker | ৳1,550",
+      "Prestige Garden Queen-955 All-in-One Multipurpose Cooker | ৳1,700 | Cash on Delivery | 1 Year Service Warranty",
 
     description:
       "Prestige Garden Queen-955 All-in-One Multipurpose Cooker। ভাত, খিচুড়ি, পোলাও, নুডলস, সবজি ও স্টিম/ভাপা খাবার তৈরিতে ব্যবহারযোগ্য। Cash on Delivery ও ১ বছরের Service Warranty।",
