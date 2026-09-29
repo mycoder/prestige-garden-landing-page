@@ -10,6 +10,8 @@ export const CONFIG = {
   PRODUCT_MODEL: "Queen-955",
   PRODUCT_CATEGORY: "Kitchen Appliance",
 
+  COMPANY_NAME: "Familiana.online",
+
   // ---------- Pricing ----------
   CURRENCY_SYMBOL: "৳",
   REGULAR_PRICE: 2000,
@@ -57,6 +59,12 @@ export const CONFIG = {
     box: "/images/product-box.webp",
   },
 
+  // ---------- Customer Support ----------
+WHATSAPP_NUMBER: "8801608733767",
+
+WHATSAPP_DEFAULT_MESSAGE:
+  "আসসালামু আলাইকুম, Prestige Garden Queen-955 Multipurpose Cooker সম্পর্কে customer support-এর জন্য যোগাযোগ করছি।",
+
   // ---------- SEO ----------
   SEO: {
     title:
@@ -76,4 +84,12 @@ export const SAVE_AMOUNT =
 
 export function formatPrice(amount: number): string {
   return `${CONFIG.CURRENCY_SYMBOL}${amount.toLocaleString("en-BD")}`;
+}
+
+export function getWhatsAppUrl(customMessage?: string): string {
+  const msg = encodeURIComponent(
+    customMessage || CONFIG.WHATSAPP_DEFAULT_MESSAGE
+  );
+
+  return `https://wa.me/${CONFIG.WHATSAPP_NUMBER}?text=${msg}`;
 }

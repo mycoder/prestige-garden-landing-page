@@ -1,5 +1,5 @@
 import { useRef, useState, type FormEvent } from "react";
-import { CONFIG, formatPrice } from "../config";
+import { CONFIG, formatPrice, getWhatsAppUrl } from "../config";
 import {
   trackInitiateCheckout,
   trackLead,
@@ -248,29 +248,56 @@ export default function OrderForm() {
   // ==========================================================
 
   if (status === "success") {
-    return (
-      <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-6 text-center sm:p-8">
-        <span
-          className="text-4xl"
-          aria-hidden="true"
+  return (
+    <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-6 text-center sm:p-8">
+
+      <span
+        className="text-4xl"
+        aria-hidden="true"
+      >
+        ✅
+      </span>
+
+      <h3 className="mt-3 text-lg font-bold text-emerald-800 sm:text-xl">
+        ধন্যবাদ! আপনার অর্ডার গ্রহণ করা হয়েছে
+      </h3>
+
+      <p className="mt-2 text-sm text-emerald-700 sm:text-base">
+        শীঘ্রই আমাদের প্রতিনিধি আপনার দেওয়া নম্বরে ফোন করে অর্ডার কনফার্ম করবেন।
+      </p>
+
+      <div className="mt-5 rounded-xl border border-green-200 bg-white p-4">
+
+        <p className="text-sm font-semibold text-slate-700">
+          কোনো প্রশ্ন বা Customer Support-এর প্রয়োজন হলে
+        </p>
+
+        <a
+          href={getWhatsAppUrl()}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-3 inline-flex items-center justify-center gap-2 rounded-xl bg-green-600 px-5 py-2.5 text-sm font-bold text-white shadow-sm transition hover:bg-green-700 active:scale-[0.98]"
         >
-          ✅
-        </span>
+          💬 WhatsApp Customer Support
+        </a>
 
-        <h3 className="mt-3 text-lg font-bold text-emerald-800 sm:text-xl">
-          ধন্যবাদ! আপনার অর্ডার গ্রহণ করা হয়েছে
-        </h3>
-
-        <p className="mt-2 text-sm text-emerald-700 sm:text-base">
-          শীঘ্রই আমাদের প্রতিনিধি আপনার দেওয়া নম্বরে ফোন করে অর্ডার কনফার্ম করবেন।
+        <p className="mt-2 text-xs text-slate-500">
+          WhatsApp:{" "}
+          {CONFIG.WHATSAPP_NUMBER.replace(
+            /^880/,
+            "0"
+          )}
         </p>
 
-        <p className="mt-4 text-xs text-slate-500">
-          অর্ডারটি সফলভাবে আমাদের অর্ডার সিস্টেমে সংরক্ষণ করা হয়েছে।
-        </p>
       </div>
-    );
-  }
+
+      <p className="mt-4 text-xs text-slate-500">
+        আপনার অর্ডারটি সফলভাবে আমাদের সিস্টেমে সংরক্ষণ করা হয়েছে।
+      </p>
+
+    </div>
+  );
+}
 
   // ==========================================================
   // ORDER FORM

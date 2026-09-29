@@ -63,7 +63,7 @@ export default function Footer() {
 
         <div className="mt-8 border-t border-slate-800 pt-6 text-center text-xs text-slate-500">
           © {new Date().getFullYear()}{" "}
-          {CONFIG.PRODUCT_NAME}. সর্বস্বত্ব সংরক্ষিত।
+          {CONFIG.COMPANY_NAME} সর্বস্বত্ব সংরক্ষিত।
         </div>
 
       </div>
