@@ -50,13 +50,19 @@ export default function Footer() {
               তথ্য
             </p>
 
-            <p className="mt-2 text-sm text-slate-400">
-              Privacy Policy [PLACEHOLDER]
-            </p>
+            <a
+              href="/privacy-policy.html"
+              className="mt-2 block text-sm text-slate-400 transition hover:text-white hover:underline"
+            >
+              Privacy Policy
+            </a>
 
-            <p className="mt-1 text-sm text-slate-400">
-              Terms &amp; Conditions [PLACEHOLDER]
-            </p>
+            <a
+              href="/terms-and-conditions.html"
+              className="mt-2 block text-sm text-slate-400 transition hover:text-white hover:underline"
+            >
+              Terms &amp; Conditions
+            </a>
           </div>
 
         </div>
