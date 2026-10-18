@@ -7,7 +7,6 @@
 export const CONFIG = {
   // ---------- Basic product info ----------
   PRODUCT_NAME: "Prestige Garden All-in-One Multipurpose Cooker",
-  PRODUCT_MODEL: "Queen-955",
   PRODUCT_CATEGORY: "Kitchen Appliance",
 
   COMPANY_NAME: "Familiana.online",
@@ -41,8 +40,7 @@ export const CONFIG = {
     "পণ্য হাতে পাওয়ার পর ২৪ ঘণ্টার মধ্যে যদি কোনো সমস্যা থাকে, তাহলে ছবি বা ভিডিও তুলে আমাদের সাথে যোগাযোগ করতে হবে। যাচাইয়ের পর পণ্য পরিবর্তন করে দেওয়া হবে।",
 
   // ---------- Specifications ----------
-  SPECIFICATIONS: [
-    { label: "Model", value: "Queen-955" },
+  SPECIFICATIONS: [    
     { label: "Capacity", value: "6.5 L" },
     { label: "Power (Wattage)", value: "1100 W" },
     { label: "Voltage", value: "220–240 V" },
@@ -63,15 +61,15 @@ export const CONFIG = {
 WHATSAPP_NUMBER: "8801608733767",
 
 WHATSAPP_DEFAULT_MESSAGE:
-  "আসসালামু আলাইকুম, Prestige Garden Queen-955 Multipurpose Cooker সম্পর্কে customer support-এর জন্য যোগাযোগ করছি।",
+  "আসসালামু আলাইকুম, Prestige Garden All-in-One Multipurpose Cooker সম্পর্কে customer support-এর জন্য যোগাযোগ করছি।",
 
   // ---------- SEO ----------
   SEO: {
     title:
-      "Prestige Garden Queen-955 All-in-One Multipurpose Cooker | ৳1,700 | Cash on Delivery | 1 Year Service Warranty",
+      "Prestige Garden All-in-One Multipurpose Cooker | ৳1,700 | Cash on Delivery | 1 Year Service Warranty",
 
     description:
-      "Prestige Garden Queen-955 All-in-One Multipurpose Cooker। ভাত, খিচুড়ি, পোলাও, নুডলস, সবজি ও স্টিম/ভাপা খাবার তৈরিতে ব্যবহারযোগ্য। Cash on Delivery ও ১ বছরের Service Warranty।",
+      "Prestige Garden All-in-One Multipurpose Cooker। ভাত, খিচুড়ি, পোলাও, নুডলস, সবজি ও স্টিম/ভাপা খাবার তৈরিতে ব্যবহারযোগ্য। Cash on Delivery ও ১ বছরের Service Warranty।",
 
     ogImage: "/images/product-main.webp",
 

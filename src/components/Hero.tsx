@@ -15,8 +15,7 @@ const dishes = [
 export default function Hero() {
   useEffect(() => {
     trackViewContent({
-      content_name: CONFIG.PRODUCT_NAME,
-      content_ids: [CONFIG.PRODUCT_MODEL],
+      content_name: CONFIG.PRODUCT_NAME,      
     });
   }, []);
 
@@ -36,7 +35,7 @@ export default function Hero() {
           <div className="relative w-full max-w-sm sm:max-w-md">
             <ImagePlaceholder
               src={CONFIG.IMAGES.main}
-              alt={`${CONFIG.PRODUCT_NAME} ${CONFIG.PRODUCT_MODEL}`}
+              alt={`${CONFIG.PRODUCT_NAME}`}
               label="[MAIN PRODUCT IMAGE — এখানে প্রোডাক্টের প্রধান ছবি বসবে]"
               aspect="aspect-[4/5]"
               className="w-full rounded-3xl shadow-xl shadow-emerald-900/10"
@@ -68,8 +67,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-base font-medium text-slate-600 sm:text-lg">
-            {CONFIG.PRODUCT_NAME} —{" "}
-            {CONFIG.PRODUCT_MODEL}
+            {CONFIG.PRODUCT_NAME}            
           </p>
 
           <div className="flex flex-wrap gap-2">
@@ -131,6 +129,17 @@ export default function Hero() {
             </button>
           </div>
 
+        </div>
+
+        {/* Business Logo */}
+        <div className="mb-1 flex items-center gap-3">
+          <img
+            src="/logo.png"
+            alt="Prestige Garden Business Logo"
+            className="h-14 w-auto max-w-[220px] object-contain sm:h-16"
+            width="220"
+            height="64"
+          />
         </div>
       </div>
     </section>

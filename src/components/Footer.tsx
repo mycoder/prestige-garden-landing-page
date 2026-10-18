@@ -8,13 +8,19 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
 
           <div>
+            {/* Business Logo */}
+            <img
+              src="/logo.png"
+              alt="Prestige Garden Logo"
+              className="mb-4 h-14 w-auto max-w-[220px] object-contain"
+              width="220"
+              height="64"
+            />
+            
             <p className="text-base font-bold text-white">
               {CONFIG.PRODUCT_NAME}
             </p>
-
-            <p className="mt-1 text-sm text-slate-400">
-              Model: {CONFIG.PRODUCT_MODEL}
-            </p>
+            
           </div>
 
           <div>
