@@ -129,18 +129,7 @@ export default function Hero() {
             </button>
           </div>
 
-        </div>
-
-        {/* Business Logo */}
-        <div className="mb-1 flex items-center gap-3">
-          <img
-            src="/logo.png"
-            alt="Prestige Garden Business Logo"
-            className="h-14 w-auto max-w-[220px] object-contain sm:h-16"
-            width="220"
-            height="64"
-          />
-        </div>
+        </div>        
       </div>
     </section>
   );
